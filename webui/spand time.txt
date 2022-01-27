@@ -1,0 +1,2 @@
+study pytest-bdd 3 hours
+coding 4 hours
