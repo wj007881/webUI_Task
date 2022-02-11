@@ -1,4 +1,4 @@
-安装说明: 
+###安装说明: 
 你需要安装谷歌浏览器和对应的浏览器驱动，驱动可以从'http://npm.taobao.org/mirrors/chromedriver/'  下载
 然后修改default.txt文件内容为新下载的浏览器驱动路径，也可直接替换文件夹内的驱动文件
 (如果你的浏览器版本是'97.0.4692.71', 那么需要下载的浏览器驱动版本是'97.0.4692.*' *号代表任意数字)
@@ -6,7 +6,7 @@
 'pip install selenium pytest pytest-bdd pyautogui opencv-python Pillow numpy pytest-html '
 如果是Windows系统,可以双击目录下inatall_package.bat脚本安装对应的Python库.
 
-使用说明:
+###使用说明:
 输入以下指令到命令行执行
 'pytest ./run_test.py --html=report.html --self-contained-html'
 新开一个命令行窗口输入 python +空格 
@@ -22,7 +22,7 @@
 
 
 
-How to install: 
+###How to install: 
 You should install Google Chrome in your pc and download the related driver from 'http://npm.taobao.org/mirrors/chromedriver/' (e.g. if your Chrome version is '97.0.4692.71', then you should download the driver version is '97.0.4692.*' )
 And modify default.txt 
 chromedriver='your driver path'
@@ -33,7 +33,7 @@ Install Python3.7 or latest in your pc then type the characters to command line(
 'pip install selenium pytest pytest-bdd pyautogui opencv-python Pillow numpy pytest-html '
 for Windows system, you can double click inatall_package.bat to install python package.
 
-How to use:
+###How to use:
 Type the characters to command line(CMD) and execute it
 'pytest ./run_test.py --html=report.html --self-contained-html'
 Open a new CMD window then type the script as below :
@@ -46,7 +46,7 @@ The video window will close automatically when test finish or test fail, and mak
 It will make a report.html file when test finish or test fail, and take a screenshot into report.html when test fail
 
 
-文件目录说明/File description：
+###文件目录说明/File description：
 ├─bdd_test                     #测试文件夹/Test folder
 │      run_test.py
 │      UI_test.py
