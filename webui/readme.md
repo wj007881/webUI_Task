@@ -1,5 +1,5 @@
 安装说明: 
-你需要安装谷歌浏览器和对应的浏览器驱动，驱动可以从'http://npm.taobao.org/mirrors/chromedriver/'下载
+你需要安装谷歌浏览器和对应的浏览器驱动，驱动可以从'http://npm.taobao.org/mirrors/chromedriver/'  下载
 然后修改default.txt文件内容为新下载的浏览器驱动路径，也可直接替换文件夹内的驱动文件
 (如果你的浏览器版本是'97.0.4692.71', 那么需要下载的浏览器驱动版本是'97.0.4692.*' *号代表任意数字)
 安装Python3.7或者更新版本的Python到电脑上，然后输入以下指令到命令行执行:
@@ -17,7 +17,7 @@
 测试失败或者完成都会生成report.html文件，失败时有截图
 
 注：
-由于部分网络访问https://crypto.com/exchange/markets较慢，容易导致测试失败或无法完整运行测试，出现此类问题请使用科学上网工具
+由于部分网络访问https://crypto.com/exchange/markets  较慢，容易导致测试失败或无法完整运行测试，出现此类问题请使用科学上网工具
 
 
 
