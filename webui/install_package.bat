@@ -1,0 +1,1 @@
+cmd /k pip install selenium pytest pytest-bdd pyautogui opencv-python Pillow numpy pytest-html
