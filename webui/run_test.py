@@ -4,7 +4,7 @@
 from pytest_bdd import scenario
 from UI_test import *
 
-@scenario("webui.feature","ui test")
+@scenario("webui.feature", "ui_test")
 def test_ui():
     pass
 
